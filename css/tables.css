@@ -1,0 +1,15 @@
+/* RESPONSIVE WITHOUT BOOTSTRAP 5 */
+/* Tables screen, landscape */
+@media (max-width: 992px) {
+  .navbar .container {
+    padding: 10px 100px;
+    justify-content: space-around;
+  }
+  .navbar .avatar {
+    display: none;
+  }
+  .job-info .grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+}
